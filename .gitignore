@@ -1,0 +1,7 @@
+# Build Files
+dist
+modelsaber.js
+modelsaber.min.js
+
+# NPM/Yarn Cache
+node_modules

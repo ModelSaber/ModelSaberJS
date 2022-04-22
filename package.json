@@ -1,0 +1,22 @@
+{
+  "name": "modelsaber.js",
+  "version": "0.1.0",
+  "description": "JavaScript bindings for the GraphQL API of ModelSaber.",
+  "main": "dist/index.js",
+  "repository": "https://github.com/ModelSaber/ModelSaberJS",
+  "author": "cal117 <93472213+cal117@users.noreply.github.com>",
+  "scripts": {
+    "build": "webpack --mode=production && yarn optimize",
+    "optimize": "minify dist/modelsaber.js > dist/modelsaber.min.js"
+  },
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "@types/node": "^17.0.25",
+    "minify": "^8.0.4",
+    "ts-loader": "^9.2.8",
+    "typescript": "^4.6.3",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2"
+  }
+}
